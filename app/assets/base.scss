@@ -1,0 +1,5 @@
+@import './mixins.scss';
+
+body, html {
+  @include elastic-size();
+}

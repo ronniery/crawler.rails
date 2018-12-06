@@ -1,0 +1,17 @@
+#modal-token {
+
+  .modal-body {
+
+    textarea {
+      width: 100%;
+      word-break: break-all;
+      margin: 0px;
+      height: 85px;
+      overflow: hidden;
+      border: thin solid transparent;
+      background: white;
+      resize: none;
+      outline: none !important;
+    }
+  }
+}

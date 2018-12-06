@@ -1,4 +1,4 @@
-class QuotesController < ActionController::API
+class QuotesController < ApplicationController
   before_action :set_quotes
 
   # GET /quotes/:tag

@@ -2,8 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import '../base.scss';
+@import './modal.scss';
 
 .login-page {
+
   .card-wrapper {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -13,17 +15,10 @@
     -webkit-box-align: center;
     align-items: center;
 
-    & .card-title {
-      small {
-        font-size: 12.8px;
-        width: 100%;
-        display: inherit;
-        color: #6f6f6f;
-      }
-    }
-
     & .login-form {
+
       .password-region {
+        
         [for='password'] {
           width: 100%;
           position: relative;
@@ -47,6 +42,18 @@
           padding: 2px 7px; 
           font-size: 12px; 
           cursor: pointer;
+        }
+      }
+
+      .btn-disabled {
+        border: thin solid #999;
+        color: #999;
+        pointer-events: none;
+
+        &:hover {
+          border: thin solid #999;
+          color: #999;
+          background-color: transparent;
         }
       }
     }

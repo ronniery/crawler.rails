@@ -1,7 +1,7 @@
 require 'jwtoken'
 
 class MainController < ApplicationController
-  skip_before_action :authenticate
+  skip_before_action :check_auth
 
   # GET /
   def index
@@ -13,15 +13,16 @@ class MainController < ApplicationController
       
     if user.blank?
       user = User.new(auth_params)
-      temp = user.save()
       
-      unless temp
+      unless user.save
         render json: user.errors, status: :unprocessable_entity
       end
+
+      user = [user]
     end
 
     jwt = JWToken.encode({ user: user.map(&:_id).first.to_s })
-    render json: {authorization: jwt}
+    render json: {token: jwt}
   end
 
   private

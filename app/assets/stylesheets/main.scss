@@ -57,5 +57,79 @@
         }
       }
     }
+
+    & .list-api {
+      overflow: hidden;
+      height: 0;
+
+      li.list-group-item {
+        @include no-tb-border();
+        
+        &:hover {
+          @include no-tb-border();
+        }
+
+        &:first-child {
+          @include no-tb-border();
+        }
+
+        &:not(:first-child) {
+          color: #007bff;
+          display: flex;
+          padding-top: 0;
+        }
+
+        .search-term {
+          max-width: 105px;
+        }
+
+        .token {
+          max-width: 50px;
+        }
+
+        svg {
+          height: 15px;
+          vertical-align: sub;
+          fill: #007bff;
+        }
+
+        input {
+          border: thin solid transparent;
+          outline: none;
+        }
+
+        hr {
+          margin-top: 0;
+        }
+      }
+    }
+
+    & .card-expander {
+      z-index: 100;
+      position: absolute;
+      bottom: -16px;
+      width: 100%;
+      text-align: center;
+
+      .btn-bg {
+        background-color: white;
+        position: relative;
+
+        &:hover {
+          background-color: #007bff;
+        }
+
+        &:before {
+          content: '▲ ';
+        }
+
+        &.btn-expanded {
+          
+          &:before {
+            content: '▼ ';
+          }
+        }
+      }
+    }
   }
 }

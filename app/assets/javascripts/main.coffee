@@ -6,12 +6,12 @@
 class Main
 
   constructor: ->
-    @el = $ ".card-body"
+    @el = $ ".card.fat"
     @events()
 
-    setTimeout(=> 
-      @cache().modal.modal 'show'
-    ,1500)
+    # setTimeout(=> 
+    #   @cache().modal.modal 'show'
+    # ,1500)
   
   # Can only return the cache elements when the direct dependency @el is fully populated on constuctor
   cache: ->
@@ -26,6 +26,10 @@ class Main
       tooltips: @el.find '[data-toggle="tooltip"]'
       submit: @el.find '.login-form #get-token'
       modal: @el.find '#modal-token'
+      apiBtn: @el.find '.btn-bg'
+      listapi: @el.find '.list-api'
+      searchTerm: @el.find '.search-term'
+      tokenInput: @el.find '.token'
     }
 
   # Set of events to run on document
@@ -33,6 +37,9 @@ class Main
     @onLoad()
     @onShowPassword()
     @onGetToken()
+    @onCloseModal()
+    @onShowApis()
+    @onAPInputChange()
   
   # Get an valid user from `randomuser.me
   getUser: ->
@@ -51,7 +58,7 @@ class Main
 
   # Copy a given string to clipboard
   copyToClipboard: ($parent, str) ->
-    $parent.append $input = $("<input type='hidden'>")
+    $parent.append $input = $("<input>")
     $input.val(str).select()
     document.execCommand("copy")
     $input.remove()
@@ -67,6 +74,10 @@ class Main
       url: '/create',
       method: 'POST',
       dataType: 'json',
+      beforeSend: =>
+        @el.find('*').prop 'disabled', true
+        @el.css 'pointer-events': 'none'
+      ,
       contentType: 'application/json',
       headers: 
         'X-CSRF-Token': @getCSRFToken()
@@ -75,16 +86,32 @@ class Main
           email: email.val(), 
           password: password.val()
       }
+    .always =>
+      @el.find('*').prop 'disabled', false
+      @el.css 'pointer-events': 'unset'
+
+  # Set the api link with the given data, to enable the link work correctly
+  setAPILink: ->
+    { tokenInput, searchTerm } = @cache()
+
+    @el.find('a[target="_blank"]').each  ->
+      @.setAttribute 'href', 
+        @.getAttribute('data-template')
+        .replace("TERM", searchTerm.val())
+        .replace "TOKEN", tokenInput.val()
 
   # Event to handle when button submit inside form is pressed to get a valid authorization token
   onGetToken: ->
-    { submit } = @cache()
+    { submit, tokenInput } = @cache()
 
     submit.on
       click: (e) =>
         e?.preventDefault() 
-        @getAuthToken().then ({authorization}) ->
-          localStorage.setItem 'auth_token', authorization
+        @getAuthToken().then ({token}) =>
+          localStorage.setItem 'authToken', token
+          tokenInput.val token
+          
+          @setAPILink()
 
   # Handles the passeye click to show the password as raw text
   onShowPassword: ->
@@ -94,6 +121,50 @@ class Main
       click: =>
         $input = inputs.password
         $input.prop 'type', if $input.prop('type') is 'password' then 'text' else 'password'
+  
+  # Handles input changes to mirror the changes to all inputs on the same category
+  onAPInputChange: -> 
+    { searchTerm, tokenInput } = @cache()
+    handler = (e, els) => 
+      if e.type is "paste"
+        setTimeout(->
+          els.val e.target.value
+        ,1)
+      else
+        els.val e.target.value
+      @setAPILink()
+
+    searchTerm.on
+      keyup: (e) -> handler e, searchTerm
+      paste: (e) -> handler e, searchTerm
+    
+    tokenInput.on
+      keyup: (e) -> handler e, token
+      paste: (e) -> handler e, token
+  
+  # Handles the click over the expansor, showing or hidding the api endpoints
+  onShowApis: ->
+    { listapi, apiBtn, tokenInput, searchTerm } = @cache()
+
+    apiBtn.on 
+      click: =>
+        isVisibile = listapi.height() is 0
+
+        listapi.animate {
+          height: if isVisibile then 150 else 0 
+        }, 200
+
+        apiBtn.toggleClass 'btn-expanded', isVisibile
+
+  # Handles the click over the button `close and copy` that will copy the token to clipboard
+  onCloseModal: (str) ->
+    { modal } = @cache()
+
+    handler = => @copyToClipboard modal, modal.find('textarea').val()
+    ($button = modal.find('.btn-copy-close')).on
+      click: =>
+        handler()
+        $button.unbind 'click', handler
 
   # Run some code when the page fully loads
   onLoad: ->

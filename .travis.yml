@@ -6,4 +6,6 @@ branches:
 cache:
   - bundler
 script:
-  - bin/rails test
+  - rake test
+notifications:
+  - email: false

@@ -92,6 +92,8 @@ GEM
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
     json (2.1.0)
+    json-schema (2.8.1)
+      addressable (>= 2.4)
     jwt (2.1.0)
     loofah (2.2.3)
       crass (~> 1.0.2)
@@ -217,6 +219,7 @@ DEPENDENCIES
   duktape
   excon (~> 0.62.0)
   jbuilder (~> 2.5)
+  json-schema (~> 2.8, >= 2.8.1)
   jwt (~> 2.1)
   mongoid (~> 6.0)
   nokogiri (~> 1.8, >= 1.8.5)

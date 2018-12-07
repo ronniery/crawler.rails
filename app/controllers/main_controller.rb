@@ -17,7 +17,7 @@ class MainController < ApplicationController
       user = [user]
     end
 
-    jwt = JWToken.encode(user: user.map(&:_id).first.to_s)
+    jwt = JWToken.encode(id: user.map(&:_id).first.to_s)
     render json: { token: jwt }
   end
 

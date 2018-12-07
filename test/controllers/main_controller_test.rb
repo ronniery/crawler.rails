@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 require 'jwtoken'
+require "#{Rails.root}/test/config/config_test_loader"
 
 class MainControllerTest < ActionDispatch::IntegrationTest
 
@@ -42,12 +45,7 @@ class MainControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should returns jwt api token' do
-    post '/create', params: {
-      user: {
-        email: 'ömür.ertürk@example.com',
-        password: 'kodiak'
-      }
-    }
+    post '/create', params: ConfigTestLoader.load_test_user
 
     assert_response :success
 
@@ -57,8 +55,7 @@ class MainControllerTest < ActionDispatch::IntegrationTest
     assert_not_nil token
     assert_not_empty token
     assert_equal token.is_a?(String), true
-    assert_equal token.mb_chars.length, 135
+    assert_equal token.mb_chars.length >= 125, true
     assert_equal JWToken.decode(token).blank?, false
-
   end
 end

@@ -93,7 +93,7 @@ class Main
   # Set the api link with the given data, to enable the link work correctly
   setAPILink: ->
     { tokenInput, searchTerm } = @cache()
-    debugger;
+
     @el.find('a[target="_blank"]').each  ->
       @.setAttribute 'href', 
         @.getAttribute('data-template')
@@ -110,6 +110,7 @@ class Main
         @getAuthToken().then ({token}) =>
           tokenInput.val token
           modalToken.modal 'show'
+          modalToken.find('textarea').val token
 
           @setAPILink()
 

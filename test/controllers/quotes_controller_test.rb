@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'test_helper'
+require "#{Rails.root}/test/config/config_test_loader"
 
 class QuotesControllerTest < ActionDispatch::IntegrationTest
 
@@ -16,7 +17,7 @@ class QuotesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should show unreadable for token on [URL]' do
-    get '/quotes/love&t=invalid_token'
+    get '/quotes/love?t=invalid_token'
     assert_response :unauthorized
 
     json = JSON.parse(response.body)
@@ -27,7 +28,7 @@ class QuotesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should show expired for token on [URL]' do
-    get load_expired_token
+    get "/quotes/love?t=#{load_expired_token}"
     assert_response :unauthorized
 
     json = JSON.parse(response.body)
@@ -49,7 +50,9 @@ class QuotesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should show expired for token on [HEADER]' do
-    get '/quotes/love', headers: { 'Authorization' => "Bearer #{load_expired_token}" }
+    get '/quotes/love', headers: {
+      'Authorization' => "Bearer #{load_expired_token}"
+    }
     assert_response :unauthorized
 
     json = JSON.parse(response.body)
@@ -59,13 +62,45 @@ class QuotesControllerTest < ActionDispatch::IntegrationTest
     assert_equal json['message'], 'Token has expired.'
   end
 
+  test 'should search empty quote' do
+    # Get a valid token before run the test
+    post '/create', params: ConfigTestLoader.load_test_user
+
+    json = JSON.parse response.body
+
+    get "/quotes/?t=#{json['token']}"
+    assert_redirected_to '/422'
+  end
+
+  test 'should successful search quote for word `love`' do
+    # Get a valid token before run the test
+    post '/create', params: ConfigTestLoader.load_test_user
+
+    json = JSON.parse response.body
+
+    get "/quotes/love?t=#{json['token']}"
+
+    quotes = JSON.parse response.body
+
+    assert_equal quotes.is_a?(Array), true
+    assert_equal quotes.length >= 1, true
+
+    first = quotes.first
+
+    assert_equal first['tags'].is_a?(Array), true
+
+    assert_equal first['desc'].is_a?(String), true
+    assert_equal first['desc'].empty?, false
+    assert_equal first['author_about'].is_a?(String), true
+
+  end
+
   private
 
   def load_expired_token
-    path = "#{Rails.root}/expired_token.yml"
-    loaded = YAML.load_file path
-
-    "/quotes/love&t=#{loaded['expired_token']}"
+    'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiNWMwYTQ5YzYyYWNmNm'\
+    'QxMmYwZWYyNzI4IiwiZXhwIjoxNTQ0MTg1MzE4fQ.tg_0CFkbhD'\
+    'y80crnxzI2YjiHNu4L7L3L4CFUpM8PYsc'
   end
 
   def pre_assert(json)

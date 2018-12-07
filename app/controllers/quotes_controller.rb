@@ -3,7 +3,7 @@
 class QuotesController < ApplicationController
   before_action :set_quotes
 
-  # GET /quotes/:tag
+  # GET /quotes/*tag
   def show
     render json: @quotes
   end
@@ -12,6 +12,8 @@ class QuotesController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_quotes
+    redirect_to '/422' if params[:tag].blank?
+
     # Find the tag inside the list of tags
     @quotes = Quote.where tags: params[:tag]
 
@@ -20,11 +22,6 @@ class QuotesController < ApplicationController
       # Go get the entire quote list from specific tag
       @quotes = Crawler.get_quotes params[:tag]
     end
-  end
-
-  # Only allow a trusted parameter "white list" through.
-  def quote_params
-    params.require(:quote).permit(:desc, :author, :author_about, :tags)
   end
 
 end

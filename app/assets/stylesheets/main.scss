@@ -15,6 +15,11 @@
     -webkit-box-align: center;
     align-items: center;
 
+    & .card.fat {
+      border: thin solid transparent;
+      box-shadow: 0px 0px 4px #acacac;
+    }
+
     & .login-form {
 
       .password-region {

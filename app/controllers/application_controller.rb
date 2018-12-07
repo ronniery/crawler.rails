@@ -1,21 +1,38 @@
-class ApplicationController < ActionController::API
+require 'jwtoken'
+
+class ApplicationController < ActionController::Base
+  include ExceptionHandler
+
   before_action :check_auth
 
   def check_auth
-    unless has_token?
-      render json: {error: "unauthorized"}, status: 401
+    unless (token_present? || token_on_path?) && valid_token?
+      render json: { message: 'You need request a token before go ahead.', status: 401 }, status: :unauthorized
     end
   end
 
   private
 
-    def has_token_path?
-      request.env["HTTP_AUTHORIZATION"].scan(/Bearer 
-        (.*)$/).flatten.last
+  def valid_token?
+    !JWToken.decode(token).blank?
+  end
+
+  def token_on_path?
+    !params[:t].blank?
+  end
+
+  def token_present?
+    auth_header = request.env.fetch 'HTTP_AUTHORIZATION', ''
+    !auth_header.scan(/Bearer/).flatten.first.blank?
+  end
+
+  def token
+    if token_present?
+      request.env['HTTP_AUTHORIZATION'].scan(/Bearer
+          (.*)$/).flatten.last
     end
 
-    def has_token?
-      !!request.env.fetch("HTTP_AUTHORIZATION", 
-        "").scan(/Bearer/).flatten.first
-    end
+    params[:t]
+  end
 end
+

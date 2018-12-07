@@ -25,7 +25,7 @@ class Main
         password: @el.find '#password'
       tooltips: @el.find '[data-toggle="tooltip"]'
       submit: @el.find '.login-form #get-token'
-      modal: @el.find '#modal-token'
+      modalToken: @el.find '#modal-token'
       apiBtn: @el.find '.btn-bg'
       listapi: @el.find '.list-api'
       searchTerm: @el.find '.search-term'
@@ -93,7 +93,7 @@ class Main
   # Set the api link with the given data, to enable the link work correctly
   setAPILink: ->
     { tokenInput, searchTerm } = @cache()
-
+    debugger;
     @el.find('a[target="_blank"]').each  ->
       @.setAttribute 'href', 
         @.getAttribute('data-template')
@@ -102,15 +102,15 @@ class Main
 
   # Event to handle when button submit inside form is pressed to get a valid authorization token
   onGetToken: ->
-    { submit, tokenInput } = @cache()
+    { submit, tokenInput, modalToken } = @cache()
 
     submit.on
       click: (e) =>
         e?.preventDefault() 
         @getAuthToken().then ({token}) =>
-          localStorage.setItem 'authToken', token
           tokenInput.val token
-          
+          modalToken.modal 'show'
+
           @setAPILink()
 
   # Handles the passeye click to show the password as raw text
@@ -158,10 +158,10 @@ class Main
 
   # Handles the click over the button `close and copy` that will copy the token to clipboard
   onCloseModal: (str) ->
-    { modal } = @cache()
+    { modalToken } = @cache()
 
-    handler = => @copyToClipboard modal, modal.find('textarea').val()
-    ($button = modal.find('.btn-copy-close')).on
+    handler = => @copyToClipboard modalToken, modalToken.find('textarea').val()
+    ($button = modalToken.find('.btn-copy-close')).on
       click: =>
         handler()
         $button.unbind 'click', handler

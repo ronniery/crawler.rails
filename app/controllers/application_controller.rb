@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'jwtoken'
 
 class ApplicationController < ActionController::Base
@@ -7,7 +9,10 @@ class ApplicationController < ActionController::Base
 
   def check_auth
     unless (token_present? || token_on_path?) && valid_token?
-      render json: { message: 'You need request a token before go ahead.', status: 401 }, status: :unauthorized
+      render json: {
+        message: 'You need request a token before go ahead.',
+        status: 401
+      }, status: :unauthorized
     end
   end
 
@@ -28,11 +33,9 @@ class ApplicationController < ActionController::Base
 
   def token
     if token_present?
-      request.env['HTTP_AUTHORIZATION'].scan(/Bearer
-          (.*)$/).flatten.last
+      request.env['HTTP_AUTHORIZATION'].scan(/Bearer (.*)$/).flatten.last
+    else
+      params[:t]
     end
-
-    params[:t]
   end
 end
-

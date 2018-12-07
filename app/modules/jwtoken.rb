@@ -10,11 +10,11 @@ class JWToken
     body = JWT.decode(token, APP_CONFIG['secret_key_base'])[0]
     HashWithIndifferentAccess.new body
 
-  rescue JWT::ExpiredSignature, JWT::VerificationError => e
+  rescue JWT::VerificationError, JWT::VerificationError => e
     raise ExceptionHandler::VerificationError, e.message
   rescue JWT::ExpiredSignature, JWT::ExpiredSignature => e
     raise ExceptionHandler::ExpiredSignature, e.message
-  rescue JWT::DecodeError, JWT::VerificationError => e
+  rescue JWT::DecodeError, JWT::DecodeError => e
     raise ExceptionHandler::DecodeError, e.message
   end
 

@@ -1,12 +1,14 @@
 require 'test_helper'
+require 'jwtoken'
 
 class MainControllerTest < ActionDispatch::IntegrationTest
+
   test 'should get index' do
     get '/'
     assert_response :success
   end
 
-  test 'can see token page' do
+  test 'should see token page' do
     get '/'
     assert_select 'div.card.fat'
     assert_select 'h4.card-title', 'Auth token'
@@ -20,11 +22,11 @@ class MainControllerTest < ActionDispatch::IntegrationTest
     assert_select 'input#remember'
     assert_select 'label[for="remember"]', 'Remember me'
     assert_select 'button#get-token', 'Get token'
-    assert_select 'form > div:last-child', 'Don\'t have an account?'
+    assert_select 'form > div:last-child', 'Don\'t have an account? Create One'
     assert_select 'form > div:last-child a', 'Create One'
   end
 
-  test 'api endpoints are at page' do
+  test 'should api endpoints are at page' do
     get '/'
     assert_select 'ul.list-api'
     assert_select 'li:nth-child(1)', 'Our API'
@@ -36,6 +38,27 @@ class MainControllerTest < ActionDispatch::IntegrationTest
     assert_select 'li:nth-child(3) > input.search-term'
     assert_select 'li:nth-child(3) > input.token'
     assert_select 'li:nth-child(3) > a'
+    assert_select '.card-expander', 'Endpoints'
   end
 
+  test 'should returns jwt api token' do
+    post '/create', params: {
+      user: {
+        email: 'ömür.ertürk@example.com',
+        password: 'kodiak'
+      }
+    }
+
+    assert_response :success
+
+    json = JSON.parse response.body
+    token = json['token']
+
+    assert_not_nil token
+    assert_not_empty token
+    assert_equal token.is_a?(String), true
+    assert_equal token.mb_chars.length, 135
+    assert_equal JWToken.decode(token).blank?, false
+
+  end
 end

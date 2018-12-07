@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.5.3p105
+
+branches:
+  only: master
+
+script:
+  - rails test

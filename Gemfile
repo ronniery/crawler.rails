@@ -15,7 +15,7 @@ gem 'excon', '~> 0.62.0'
 gem 'mongoid', '~> 6.0'
 gem 'bson_ext'
 
-gem 'jwt'
+gem 'jwt', '~> 2.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
 # Use Puma as the app server
@@ -59,6 +59,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper', '1.2.0'
+  gem 'simplecov', '~> 0.16.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

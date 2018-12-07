@@ -8,7 +8,7 @@ module ExceptionHandler
   included do
 
     rescue_from ExceptionHandler::DecodeError do |_error|
-      send_response 'Auth token supplied.'
+      send_response 'Auth token unreadable.'
     end
 
     rescue_from ExceptionHandler::ExpiredSignature do |_error|

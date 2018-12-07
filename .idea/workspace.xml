@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88deb939-5766-44d6-ae3d-64f8befcc2db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/crawler.rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crawler.rails.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/main.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/main.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/main_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/expired_token.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/main_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/main_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -52,7 +42,7 @@
           <entry key="CoffeeScript" value="2" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="RHTML" value="5" />
           <entry key="Ruby" value="83" />
           <entry key="YAML" value="11" />
@@ -61,7 +51,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CoffeeScript" value="72" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="78" />
           <entry key="RHTML" value="23" />
           <entry key="Ruby" value="3855" />
           <entry key="YAML" value="160" />
@@ -83,20 +73,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/controllers/quotes_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="-442">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#2236#2423#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/minitest-5.11.3/lib/minitest/test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="200" selection-start-line="200" selection-end-line="200" />
             </state>
           </provider>
         </entry>
@@ -126,12 +107,18 @@
       <find>load_test_user</find>
       <find>ConfigTestLoader</find>
       <find>load_expired_token</find>
+      <find>1.16.2</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Ronniery\Desktop\crawler.rails\coverage</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ronniery Borges Correa &lt;ronnisti@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -485,14 +472,19 @@
       <workItem from="1544177734887" duration="1429000" />
       <workItem from="1544184938867" duration="24078000" />
       <workItem from="1544214891489" duration="4251000" />
-      <workItem from="1544219180669" duration="2759000" />
+      <workItem from="1544219180669" duration="3174000" />
     </task>
+    <task id="LOCAL-00001" summary="Conclusion of tests for main and quote controller, now sending to travis ci">
+      <created>1544222092394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544222092395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test__crawler_rails - 2018.12.07 at 20h 13m 29s.xml">
-      <configuration name="test: crawler.rails" configurationId="RakeRunConfigurationType" />
-    </history-entry>
     <history-entry file="test_should_show_expired_for_token_on_[HEADER]__crawler_rails - 2018.12.07 at 20h 15m 01s.xml">
       <configuration name="test_should_show_expired_for_token_on_[HEADER]: crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
@@ -520,9 +512,12 @@
     <history-entry file="test_should_successful_search_quote_for_word_`love`__crawler_rails - 2018.12.07 at 20h 32m 14s.xml">
       <configuration name="test_should_successful_search_quote_for_word_`love`: crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="test__crawler_rails - 2018.12.07 at 20h 33m 31s.xml">
+      <configuration name="test: crawler.rails" configurationId="RakeRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32609000" />
+    <option name="totallyTimeSpent" value="33024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,15 +530,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798658" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
@@ -566,16 +560,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Conclusion of tests for main and quote controller, now sending to travis ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conclusion of tests for main and quote controller, now sending to travis ci" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/test/controllers/quotes_controller_test.rb</url>
-          <line>52</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="RakeRunConfigurationType">
         <watch expression="(token_present? || token_on_path?) &amp;&amp; valid_token?" />
@@ -584,8 +576,6 @@
         <watch expression="request.env['HTTP_AUTHORIZATION'].scan(/Bearer (.*)$/).flatten.last" />
         <watch expression="params[:t]" />
         <watch expression="load_expired_token" />
-        <watch expression="ConfigTestLoader.load_test_user" />
-        <watch expression="%w[eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiNWMwYTQ5YzYyYWNmNm&#10;       QxMmYwZWYyNzI4IiwiZXhwIjoxNTQ0MTg1MzE4fQ.tg_0CFkbhD&#10;       y80crnxzI2YjiHNu4L7L3L4CFUpM8PYsc].join('')" />
       </configuration>
       <configuration name="RailsRunConfigurationType">
         <watch expression="(token_present? || token_on_path?) &amp;&amp; valid_token?" />
@@ -739,9 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/rails">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -842,24 +829,10 @@
     <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/config/config_test_loader.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/main_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -880,6 +853,20 @@
     <entry file="file://$PROJECT_DIR$/test/config/conf.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/main_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/minitest-5.11.3/lib/minitest/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -887,10 +874,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/controllers/quotes_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="-442">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#2236#2423#0" />
           </folding>

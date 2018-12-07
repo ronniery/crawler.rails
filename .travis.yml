@@ -1,9 +1,9 @@
 language: ruby
 rvm:
   - 2.5.3
-
 branches:
   only: master
-
+cache:
+  - bundler
 script:
-  - rails test
+  - bin/rails test

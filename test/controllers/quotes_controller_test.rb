@@ -92,7 +92,6 @@ class QuotesControllerTest < ActionDispatch::IntegrationTest
     assert_equal first['desc'].is_a?(String), true
     assert_equal first['desc'].empty?, false
     assert_equal first['author_about'].is_a?(String), true
-
   end
 
   private
@@ -110,5 +109,4 @@ class QuotesControllerTest < ActionDispatch::IntegrationTest
     assert_equal json['status'].is_a?(Integer), true
     assert_equal json['status'], 401
   end
-
 end

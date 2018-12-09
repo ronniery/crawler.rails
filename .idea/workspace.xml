@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88deb939-5766-44d6-ae3d-64f8befcc2db" name="Default Changelist" comment="" />
+    <list default="true" id="88deb939-5766-44d6-ae3d-64f8befcc2db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mongoid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/mongoid.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -21,6 +24,7 @@
     <SUITE FILE_PATH="coverage/crawler_rails@spec__crawler_rails.rcov" NAME="spec: crawler.rails Coverage Results" MODIFIED="1544194580215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test__crawler_rails.rcov" NAME="test: crawler.rails Coverage Results" MODIFIED="1544221939936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_term_inputs_equals__crawler_rails.rcov" NAME="test_should_term_inputs_equals: crawler.rails Coverage Results" MODIFIED="1544283254045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
+    <SUITE FILE_PATH="coverage/crawler_rails@Production__crawler_rails.rcov" NAME="Production: crawler.rails Coverage Results" MODIFIED="1544393830446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_tooltips_visible_after_mouse_hover_elements__crawler_rails.rcov" NAME="test_should_tooltips_visible_after_mouse_hover_elements: crawler.rails Coverage Results" MODIFIED="1544281797692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@Run_test__main_controller_test___crawler_rails.rcov" NAME="Run test 'main_controller_test': crawler.rails Coverage Results" MODIFIED="1544380802020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_show_expired_for_token_on__HEADER___crawler_rails.rcov" NAME="test_should_show_expired_for_token_on_[HEADER]: crawler.rails Coverage Results" MODIFIED="1544220966949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
@@ -33,7 +37,7 @@
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_load_valid_quote_tag_search_inside_pretty_print_editor__crawler_rails.rcov" NAME="test_should_load_valid_quote_tag_search_inside_pretty_print_editor: crawler.rails Coverage Results" MODIFIED="1544380604677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@Run_test__quotes_controller_test___crawler_rails.rcov" NAME="Run test 'quotes_controller_test': crawler.rails Coverage Results" MODIFIED="1544385941665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_token_inputs_equals__crawler_rails.rcov" NAME="test_should_token_inputs_equals: crawler.rails Coverage Results" MODIFIED="1544284958603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
-    <SUITE FILE_PATH="coverage/crawler_rails@Development__crawler_rails.rcov" NAME="Development: crawler.rails Coverage Results" MODIFIED="1544379017258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
+    <SUITE FILE_PATH="coverage/crawler_rails@Development__crawler_rails.rcov" NAME="Development: crawler.rails Coverage Results" MODIFIED="1544392370071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_show_popup_with_registered_token__crawler_rails.rcov" NAME="test_should_show_popup_with_registered_token: crawler.rails Coverage Results" MODIFIED="1544388054155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@Run_test__MainControllerTest___crawler_rails.rcov" NAME="Run test 'MainControllerTest': crawler.rails Coverage Results" MODIFIED="1544298611282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_our_api_point_are_visible_after_expansor_click__crawler_rails.rcov" NAME="test_should_our_api_point_are_visible_after_expansor_click: crawler.rails Coverage Results" MODIFIED="1544282347496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
@@ -63,16 +67,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
+          <entry key="CSS" value="6" />
           <entry key="CoffeeScript" value="6" />
+          <entry key="HTML" value="2" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="RHTML" value="18" />
-          <entry key="Ruby" value="146" />
+          <entry key="Ruby" value="161" />
           <entry key="SCSS" value="4" />
-          <entry key="YAML" value="13" />
+          <entry key="YAML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -82,9 +87,9 @@
           <entry key="JavaScript" value="29" />
           <entry key="PLAIN_TEXT" value="124" />
           <entry key="RHTML" value="1669" />
-          <entry key="Ruby" value="10975" />
+          <entry key="Ruby" value="11016" />
           <entry key="SCSS" value="300" />
-          <entry key="YAML" value="231" />
+          <entry key="YAML" value="243" />
         </counts>
       </usages-collector>
     </session>
@@ -93,110 +98,55 @@
     <favorites_list name="crawler.rails" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/quotes_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-232">
-              <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/modules/crawler.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="48" column="10" lean-forward="true" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/modules/jwtoken.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/application_system_test_case.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="91" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/system/main_controller_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="151" column="5" lean-forward="true" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/jquery-3.1.1.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/popper-1.4.3.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="76" column="27" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="595">
+                  <caret line="35" column="42" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="20" column="29" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="331">
+                  <caret line="171" column="28" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Auth token</find>
-      <find>&amp;</find>
-      <find>debugger</find>
-      <find>debugger;</find>
-      <find>routes</find>
       <find>textarea</find>
       <find>modal</find>
       <find>ConfigTestLoader</find>
@@ -222,6 +172,11 @@
       <find>show</find>
       <find>string[]</find>
       <find>][disabled]</find>
+      <find>assets</find>
+      <find>log</find>
+      <find>production</find>
+      <find>serve_static_assets</find>
+      <find>public_file_server</find>
     </findStrings>
     <replaceStrings>
       <replace>'/assets/images/jsoneditor-icons.svg'</replace>
@@ -243,7 +198,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/log/development.log" />
-        <option value="$PROJECT_DIR$/config/mongoid.yml" />
         <option value="$PROJECT_DIR$/app/modules/jwt_cipher.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/test/controllers/expired_token.yml" />
@@ -276,11 +230,13 @@
         <option value="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/system/quoes_controller.test.rb" />
         <option value="$PROJECT_DIR$/test/system/quotes_controller_test.rb" />
-        <option value="$PROJECT_DIR$/test/system/main_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/application_system_test_case.rb" />
         <option value="$PROJECT_DIR$/test/config/config_test_loader.rb" />
         <option value="$PROJECT_DIR$/app/controllers/quotes_controller.rb" />
         <option value="$PROJECT_DIR$/app/modules/jwtoken.rb" />
+        <option value="$PROJECT_DIR$/test/system/main_controller_test.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/mongoid.yml" />
       </list>
     </option>
   </component>
@@ -327,101 +283,7 @@
             <path>
               <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
               <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="quotes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -458,6 +320,11 @@
       <recent name="C:\Users\Ronniery\Desktop\crawler.rails\test\config" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="b">
+      <command value="RAILS_SERVE_STATIC_FILES=1" />
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -470,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_should_show_popup_with_registered_token: crawler.rails">
+  <component name="RunManager" selected="Rails.Production: crawler.rails">
     <configuration name="Development: crawler.rails" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="crawler.rails" />
@@ -506,7 +373,7 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
@@ -669,10 +536,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Rake.test: crawler.rails" />
-      <item itemvalue="Rake.spec: crawler.rails" />
       <item itemvalue="Rails.Production: crawler.rails" />
       <item itemvalue="Rails.Development: crawler.rails" />
+      <item itemvalue="Rake.test: crawler.rails" />
+      <item itemvalue="Rake.spec: crawler.rails" />
       <item itemvalue="Ruby.quotes_controller_test" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'quotes_controller_test': crawler.rails" />
       <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_load_pretty_print_editor: crawler.rails" />
@@ -717,7 +584,7 @@
       <workItem from="1544297929441" duration="9970000" />
       <workItem from="1544360265416" duration="6155000" />
       <workItem from="1544376833137" duration="2445000" />
-      <workItem from="1544379600527" duration="9398000" />
+      <workItem from="1544379600527" duration="12005000" />
     </task>
     <task id="LOCAL-00001" summary="Conclusion of tests for main and quote controller, now sending to travis ci">
       <created>1544222092394</created>
@@ -769,7 +636,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79680000" />
+    <option name="totallyTimeSpent" value="82287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,7 +656,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50211865" side_tool="true" weight="0.27919462" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49530202" visible="true" weight="0.31960228" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49530202" visible="true" weight="0.3877841" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.37926137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -838,6 +705,21 @@
           <url>file://$PROJECT_DIR$/test/system/quotes_controller_test.rb</url>
           <line>51</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/main_controller.rb</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/main_controller.rb</url>
+          <line>12</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/main_controller.rb</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -918,60 +800,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/controllers/test_base_controller.rb" />
-    <entry file="file://$PROJECT_DIR$/test/config/quote_schema.json" />
-    <entry file="file://$PROJECT_DIR$/test/config/conf.yml" />
-    <entry file="file://$PROJECT_DIR$/test/system/mains_test.rb" />
-    <entry file="file://$PROJECT_DIR$/tmp/screenshots/failures_test_should_tooltips_visible_after_mouse_hover_elements.png" />
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs25/kernel.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4066" column="8" selection-start-line="4066" selection-start-column="8" selection-end-line="4066" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/nokogiri-1.8.5-x64-mingw32/lib/nokogiri.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activesupport-5.2.2/lib/active_support/dependencies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4352">
-          <caret line="256" selection-start-line="256" selection-end-line="256" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/json_viewer_controller.rb" />
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -1137,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/system/quotes_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/bootstrap-4.1.3.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1176,13 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/quotes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-232">
@@ -1194,6 +1008,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/system/quotes_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/system/main_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/application_system_test_case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1211,17 +1051,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/application_system_test_case.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        <state relative-caret-position="261">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/system/main_controller_test.rb">
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/loaded_features_index.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="151" column="5" lean-forward="true" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+        <state relative-caret-position="129">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activesupport-5.2.2/lib/active_support/dependencies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="388" selection-start-line="388" selection-end-line="388" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.2/lib/bootsnap/load_path_cache/core_ext/active_support.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/engine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/2.5.0/tsort.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="347" selection-start-line="347" selection-end-line="347" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activesupport-5.2.2/lib/active_support/concurrency/share_lock.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-793" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/main-492774b8e27f0a817530db191e6d7f7408e13f103cf0f750f842c34b178cbade.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="171" column="28" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="28" />
         </state>
       </provider>
     </entry>

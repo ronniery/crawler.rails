@@ -105,8 +105,6 @@ class MainControllerTest < ApplicationSystemTestCase
     assert_hidden_element '#modal-token'
 
     find('button[type="submit"]').click
-    assert_selector 'button[disabled]'
-
     assert_disabled_inputs
 
     sleep TOKEN_WAIT # Wait until token creation on server

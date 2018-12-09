@@ -107,7 +107,7 @@ class MainControllerTest < ApplicationSystemTestCase
     find('button[type="submit"]').click
 
     assert_disabled_inputs
-    assert_selector 'button[type="submit"][disabled]'
+    assert_selector 'button[disabled]'
 
     sleep TOKEN_WAIT # Wait until token creation on server
 

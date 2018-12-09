@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88deb939-5766-44d6-ae3d-64f8befcc2db" name="Default Changelist" comment="" />
+    <list default="true" id="88deb939-5766-44d6-ae3d-64f8befcc2db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -21,7 +25,7 @@
     <SUITE FILE_PATH="coverage/crawler_rails@spec__crawler_rails.rcov" NAME="spec: crawler.rails Coverage Results" MODIFIED="1544194580215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test__crawler_rails.rcov" NAME="test: crawler.rails Coverage Results" MODIFIED="1544221939936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_term_inputs_equals__crawler_rails.rcov" NAME="test_should_term_inputs_equals: crawler.rails Coverage Results" MODIFIED="1544283254045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
-    <SUITE FILE_PATH="coverage/crawler_rails@Production__crawler_rails.rcov" NAME="Production: crawler.rails Coverage Results" MODIFIED="1544394966690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
+    <SUITE FILE_PATH="coverage/crawler_rails@Production__crawler_rails.rcov" NAME="Production: crawler.rails Coverage Results" MODIFIED="1544395444342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_tooltips_visible_after_mouse_hover_elements__crawler_rails.rcov" NAME="test_should_tooltips_visible_after_mouse_hover_elements: crawler.rails Coverage Results" MODIFIED="1544281797692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@Run_test__main_controller_test___crawler_rails.rcov" NAME="Run test 'main_controller_test': crawler.rails Coverage Results" MODIFIED="1544380802020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_show_expired_for_token_on__HEADER___crawler_rails.rcov" NAME="test_should_show_expired_for_token_on_[HEADER]: crawler.rails Coverage Results" MODIFIED="1544220966949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
@@ -74,7 +78,7 @@
           <entry key="RHTML" value="18" />
           <entry key="Ruby" value="161" />
           <entry key="SCSS" value="4" />
-          <entry key="YAML" value="14" />
+          <entry key="YAML" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -84,9 +88,9 @@
           <entry key="JavaScript" value="29" />
           <entry key="PLAIN_TEXT" value="124" />
           <entry key="RHTML" value="1669" />
-          <entry key="Ruby" value="11016" />
+          <entry key="Ruby" value="11021" />
           <entry key="SCSS" value="300" />
-          <entry key="YAML" value="243" />
+          <entry key="YAML" value="289" />
         </counts>
       </usages-collector>
     </session>
@@ -101,8 +105,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="117">
-                  <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+                <state relative-caret-position="83">
+                  <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -112,6 +116,15 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="595">
                   <caret line="35" column="42" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.travis.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -163,8 +176,8 @@
       <find>log</find>
       <find>serve_static_assets</find>
       <find>public_file_server</find>
-      <find>js_compressor</find>
       <find>production</find>
+      <find>js_compressor</find>
     </findStrings>
     <replaceStrings>
       <replace>'/assets/images/jsoneditor-icons.svg'</replace>
@@ -214,7 +227,6 @@
         <option value="$PROJECT_DIR$/app/views/quotes/viewer.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/system/quoes_controller.test.rb" />
         <option value="$PROJECT_DIR$/test/system/quotes_controller_test.rb" />
@@ -225,6 +237,7 @@
         <option value="$PROJECT_DIR$/test/system/main_controller_test.rb" />
         <option value="$PROJECT_DIR$/config/mongoid.yml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -271,7 +284,12 @@
             <path>
               <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
               <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -572,7 +590,7 @@
       <workItem from="1544297929441" duration="9970000" />
       <workItem from="1544360265416" duration="6155000" />
       <workItem from="1544376833137" duration="2445000" />
-      <workItem from="1544379600527" duration="13159000" />
+      <workItem from="1544379600527" duration="13914000" />
     </task>
     <task id="LOCAL-00001" summary="Conclusion of tests for main and quote controller, now sending to travis ci">
       <created>1544222092394</created>
@@ -624,7 +642,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83441000" />
+    <option name="totallyTimeSpent" value="84196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,14 +655,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" sideWeight="0.50211865" side_tool="true" weight="0.27919462" />
       <window_info id="Favorites" order="2" sideWeight="0.50211865" side_tool="true" weight="0.27919462" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49530202" visible="true" weight="0.3877841" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49530202" weight="0.3877841" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.37926137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -652,7 +669,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49798658" weight="0.28835228" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49798658" visible="true" weight="0.28835228" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.504698" side_tool="true" weight="0.45454547" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49731544" visible="true" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -860,13 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="204" selection-start-line="204" selection-end-line="204" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1105,6 +1115,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1114,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="83">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
         </state>
       </provider>
     </entry>

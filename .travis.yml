@@ -11,6 +11,7 @@ branches:
 cache:
   - bundler
 script:
+  - bundle exec rake assets:precompile
   - bundle exec rake test
   - bundle exec rake test:system
 deploy:

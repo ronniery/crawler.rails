@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88deb939-5766-44d6-ae3d-64f8befcc2db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/system/quotes_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/crawler.rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crawler.rails.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/quotes.coffee.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/main_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/quotes/viewer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/viewer.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/assets/javascripts/jsoneditor-5.26.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" afterDir="false" />
-    </list>
+    <list default="true" id="88deb939-5766-44d6-ae3d-64f8befcc2db" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -97,7 +80,7 @@
           <entry key="CSS" value="26" />
           <entry key="CoffeeScript" value="433" />
           <entry key="JavaScript" value="29" />
-          <entry key="PLAIN_TEXT" value="78" />
+          <entry key="PLAIN_TEXT" value="124" />
           <entry key="RHTML" value="1669" />
           <entry key="Ruby" value="10151" />
           <entry key="SCSS" value="300" />
@@ -717,7 +700,7 @@
       <workItem from="1544297929441" duration="9970000" />
       <workItem from="1544360265416" duration="6155000" />
       <workItem from="1544376833137" duration="2445000" />
-      <workItem from="1544379600527" duration="5107000" />
+      <workItem from="1544379600527" duration="5459000" />
     </task>
     <task id="LOCAL-00001" summary="Conclusion of tests for main and quote controller, now sending to travis ci">
       <created>1544222092394</created>
@@ -726,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544222092395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added more tests for quotes/:tag/:mode route">
+      <created>1544386133060</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544386133062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -762,7 +752,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75389000" />
+    <option name="totallyTimeSpent" value="75741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,7 +808,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Conclusion of tests for main and quote controller, now sending to travis ci" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conclusion of tests for main and quote controller, now sending to travis ci" />
+    <MESSAGE value="Added more tests for quotes/:tag/:mode route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more tests for quotes/:tag/:mode route" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

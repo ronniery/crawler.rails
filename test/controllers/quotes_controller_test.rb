@@ -63,22 +63,12 @@ class QuotesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should search empty quote' do
-    # Get a valid token before run the test
-    post '/create', params: ConfigTestLoader.load_test_user
-
-    json = JSON.parse response.body
-
-    get "/quotes/?t=#{json['token']}"
+    get "/quotes/?t=#{get_valid_token['token']}"
     assert_redirected_to '/422'
   end
 
   test 'should successful search quote for word `love`' do
-    # Get a valid token before run the test
-    post '/create', params: ConfigTestLoader.load_test_user
-
-    json = JSON.parse response.body
-
-    get "/quotes/love?t=#{json['token']}"
+    get "/quotes/love?t=#{get_valid_token['token']}"
 
     quotes = JSON.parse response.body
 
@@ -100,6 +90,12 @@ class QuotesControllerTest < ActionDispatch::IntegrationTest
     'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiNWMwYTQ5YzYyYWNmNm'\
     'QxMmYwZWYyNzI4IiwiZXhwIjoxNTQ0MTg1MzE4fQ.tg_0CFkbhD'\
     'y80crnxzI2YjiHNu4L7L3L4CFUpM8PYsc'
+  end
+
+  def get_valid_token
+    # Get a valid token before run the test
+    post '/create', params: ConfigTestLoader.load_test_user
+    JSON.parse response.body
   end
 
   def pre_assert(json)

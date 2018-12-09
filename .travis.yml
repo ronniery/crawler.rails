@@ -13,5 +13,12 @@ cache:
 script:
   - bundle exec rake test
   - bundle exec rake test:system
+deploy:
+  provider: heroku
+  api_key:
+    secure: TbYuZlPJxlUiCZiosdJfOucwFowfP5kmHzyBhJgGig23hLTeltpffNSt2ezeCfF1yQNNuW95GtaysXp8f9D8txJZMPn+RXl2SC3OWnARNUaJotZTfY+zjo25RkmnXRDkneCPWQMCKOW9KmsIdObnKYCtqGVpJhUk72KllcBdlHxmjD88rNt5lvLlvbxNu1kPliI0O/Jv62M5EUSy+cLE7CnqzbNqPLENkv08ypJwBCNiBfB6jejMhAwiyJpBDYioGxxkOymS+rVr76W+Y3rzC3AWpW9dEPTZnWQ66lebN4cvujjrt2MhDqNVhudtTdvng5SXFZqDvsvhfB2Ox+02B+cbGLhpD/GeAlBR/h1s89f+VqHmPRYI+8mdDOm8k1Vl9U4uQ36MoviHkUNYNGc0IGrDPMFx4tevkh9gwOgGUp1VZBpBXzr+vYnanDV9ALCKFVymRRR3DWtBQVCFdjrslgwPFsE1svMxQelb3f93JJCoamKEcf8YYbgGcfeAaQdrXg26v8mFOtKbn5s9vkjsFEWriOqHF83hMsYj/+54WSIFes7BkeOFsKDGruPxTVqRImO4J8zFI8uh0Jia10xYlFNb/drXGR25xY9BVsB1JV/igDhcVb6GTrPVOMsBtfaJ44s4EukDtjBqwdEWsFVWG/OllrHmBsbClV1ACVyom/c=
+  app: arcane-waters-62201
+  on:
+    repo: ronniery/crawler.rails
 notifications:
   - email: false

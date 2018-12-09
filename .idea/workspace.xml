@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88deb939-5766-44d6-ae3d-64f8befcc2db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/system/quotes_controller_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/crawler.rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crawler.rails.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/main.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/main.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/quotes.coffee.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/main_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/main_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/quotes_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotes/viewer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotes/viewer.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/javascripts/jsoneditor-5.26.3.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/application_system_test_case.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/system/main_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/system/main_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,21 +32,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/crawler_rails@test_should_load_invalid_quote_tag_search_inside_pretty_print_editor__crawler_rails.rcov" NAME="test_should_load_invalid_quote_tag_search_inside_pretty_print_editor: crawler.rails Coverage Results" MODIFIED="1544385833218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
+    <SUITE FILE_PATH="coverage/crawler_rails@quoes_controller_test.rcov" NAME="quoes_controller.test Coverage Results" MODIFIED="1544381035684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/system" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_password_visible_after_pass_eye_click__crawler_rails.rcov" NAME="test_should_password_visible_after_pass-eye_click: crawler.rails Coverage Results" MODIFIED="1544286258322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@spec__crawler_rails.rcov" NAME="spec: crawler.rails Coverage Results" MODIFIED="1544194580215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test__crawler_rails.rcov" NAME="test: crawler.rails Coverage Results" MODIFIED="1544221939936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_term_inputs_equals__crawler_rails.rcov" NAME="test_should_term_inputs_equals: crawler.rails Coverage Results" MODIFIED="1544283254045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
-    <SUITE FILE_PATH="coverage/crawler_rails@Run_test__main_controller_test___crawler_rails.rcov" NAME="Run test 'main_controller_test': crawler.rails Coverage Results" MODIFIED="1544278931860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_tooltips_visible_after_mouse_hover_elements__crawler_rails.rcov" NAME="test_should_tooltips_visible_after_mouse_hover_elements: crawler.rails Coverage Results" MODIFIED="1544281797692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
+    <SUITE FILE_PATH="coverage/crawler_rails@Run_test__main_controller_test___crawler_rails.rcov" NAME="Run test 'main_controller_test': crawler.rails Coverage Results" MODIFIED="1544380802020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_show_expired_for_token_on__HEADER___crawler_rails.rcov" NAME="test_should_show_expired_for_token_on_[HEADER]: crawler.rails Coverage Results" MODIFIED="1544220966949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_inputs_filled_automatically_after_load__crawler_rails.rcov" NAME="test_should_inputs_filled_automatically_after_load: crawler.rails Coverage Results" MODIFIED="1544286119737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_the_links_are_the_same__crawler_rails.rcov" NAME="test_should_the_links_are_the_same: crawler.rails Coverage Results" MODIFIED="1544307326497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_check_visible_popup_elements__crawler_rails.rcov" NAME="test_should_check_visible_popup_elements: crawler.rails Coverage Results" MODIFIED="1544284514774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
-    <SUITE FILE_PATH="coverage/crawler_rails@test_should_successful_search_quote_for_word__love___crawler_rails.rcov" NAME="test_should_successful_search_quote_for_word_`love`: crawler.rails Coverage Results" MODIFIED="1544221930035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
-    <SUITE FILE_PATH="coverage/crawler_rails@Run_test__quotes_controller_test___crawler_rails.rcov" NAME="Run test 'quotes_controller_test': crawler.rails Coverage Results" MODIFIED="1544203025235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
+    <SUITE FILE_PATH="coverage/crawler_rails@test_should_successful_search_quote_for_word__love___crawler_rails.rcov" NAME="test_should_successful_search_quote_for_word_`love`: crawler.rails Coverage Results" MODIFIED="1544358715839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
+    <SUITE FILE_PATH="coverage/crawler_rails@test_should_load_pretty_print_editor__crawler_rails.rcov" NAME="test_should_load_pretty_print_editor: crawler.rails Coverage Results" MODIFIED="1544385357123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_password_visible_after_passeye_click__crawler_rails.rcov" NAME="test_should_password_visible_after_passeye_click: crawler.rails Coverage Results" MODIFIED="1544283547159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
+    <SUITE FILE_PATH="coverage/crawler_rails@test_should_load_valid_quote_tag_search_inside_pretty_print_editor__crawler_rails.rcov" NAME="test_should_load_valid_quote_tag_search_inside_pretty_print_editor: crawler.rails Coverage Results" MODIFIED="1544380604677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
+    <SUITE FILE_PATH="coverage/crawler_rails@Run_test__quotes_controller_test___crawler_rails.rcov" NAME="Run test 'quotes_controller_test': crawler.rails Coverage Results" MODIFIED="1544385941665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_token_inputs_equals__crawler_rails.rcov" NAME="test_should_token_inputs_equals: crawler.rails Coverage Results" MODIFIED="1544284958603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
-    <SUITE FILE_PATH="coverage/crawler_rails@Development__crawler_rails.rcov" NAME="Development: crawler.rails Coverage Results" MODIFIED="1544307908069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
+    <SUITE FILE_PATH="coverage/crawler_rails@Development__crawler_rails.rcov" NAME="Development: crawler.rails Coverage Results" MODIFIED="1544379017258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_show_popup_with_registered_token__crawler_rails.rcov" NAME="test_should_show_popup_with_registered_token: crawler.rails Coverage Results" MODIFIED="1544294494044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@Run_test__MainControllerTest___crawler_rails.rcov" NAME="Run test 'MainControllerTest': crawler.rails Coverage Results" MODIFIED="1544298611282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
     <SUITE FILE_PATH="coverage/crawler_rails@test_should_our_api_point_are_visible_after_expansor_click__crawler_rails.rcov" NAME="test_should_our_api_point_are_visible_after_expansor_click: crawler.rails Coverage Results" MODIFIED="1544282347496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="crawler.rails" />
@@ -52,36 +59,37 @@
     <session id="-631006687">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="CoffeeScript" value="5" />
+          <entry key="CoffeeScript" value="6" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="6" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="RHTML" value="17" />
-          <entry key="Ruby" value="110" />
-          <entry key="SCSS" value="2" />
-          <entry key="YAML" value="12" />
+          <entry key="JavaScript" value="7" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="RHTML" value="18" />
+          <entry key="Ruby" value="134" />
+          <entry key="SCSS" value="4" />
+          <entry key="YAML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -90,10 +98,10 @@
           <entry key="CoffeeScript" value="433" />
           <entry key="JavaScript" value="29" />
           <entry key="PLAIN_TEXT" value="78" />
-          <entry key="RHTML" value="562" />
-          <entry key="Ruby" value="7507" />
+          <entry key="RHTML" value="1669" />
+          <entry key="Ruby" value="10151" />
           <entry key="SCSS" value="300" />
-          <entry key="YAML" value="225" />
+          <entry key="YAML" value="231" />
         </counts>
       </usages-collector>
     </session>
@@ -104,37 +112,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/quotes_controller.rb">
+        <entry file="file://$PROJECT_DIR$/test/controllers/quotes_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/quotes/viewer.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/quotes.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="51">
+              <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+              <folding>
+                <element signature="e#490#690#0" />
+                <element signature="e#740#944#0" />
+                <element signature="e#997#1237#0" />
+                <element signature="e#1290#1544#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/quotes.coffee.erb">
+        <entry file="file://$PROJECT_DIR$/test/system/quotes_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/jwtoken.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-3.12.0/lib/capybara/dsl.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activesupport-5.2.2/lib/active_support/testing/setup_and_teardown.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/minitest-5.11.3/lib/minitest/test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/system/main_controller_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -152,7 +202,6 @@
       <find>routes</find>
       <find>textarea</find>
       <find>modal</find>
-      <find>load_test_user</find>
       <find>ConfigTestLoader</find>
       <find>load_expired_token</find>
       <find>1.16.2</find>
@@ -171,6 +220,8 @@
       <find>/images/jsoneditor-icons.svg</find>
       <find>images/jsoneditor-icons.svg</find>
       <find>&lt;%= @test %&gt;</find>
+      <find>load_test_user</find>
+      <find>PLATFORMS</find>
     </findStrings>
     <replaceStrings>
       <replace>'/assets/images/jsoneditor-icons.svg'</replace>
@@ -197,37 +248,39 @@
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/test/controllers/expired_token.yml" />
         <option value="$PROJECT_DIR$/app/controllers/concerns/exception_handler.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/test/controllers/conf.yml" />
         <option value="$PROJECT_DIR$/test/config/configuration_loader.rb" />
         <option value="$PROJECT_DIR$/test/controllers/test_base_controller.rb" />
         <option value="$PROJECT_DIR$/app/modules/jwtoken.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
         <option value="$PROJECT_DIR$/test/config/quotes_schema.json" />
         <option value="$PROJECT_DIR$/test/config/conf.yml" />
         <option value="$PROJECT_DIR$/test/config/config_test_loader.rb" />
         <option value="$PROJECT_DIR$/test/controllers/main_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/config/quote_schema.json" />
-        <option value="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/app/modules/crawler.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/test/application_system_test_case.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/main.coffee" />
         <option value="$PROJECT_DIR$/test/system/main_controller_test.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/main/index.html.erb" />
         <option value="$PROJECT_DIR$/lib/assets/javascripts/jsoneditor-5.26.3.min.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/lib/assets/stylesheets/jsoneditor-5.26.3.min.css" />
         <option value="$PROJECT_DIR$/lib/assets/stylesheets/jsoneditor-5.26.3.min.css.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/quotes.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/quotes.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/quotes_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/quotes/viewer.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/quotes.coffee.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/quotes/viewer.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/quotes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/test/application_system_test_case.rb" />
+        <option value="$PROJECT_DIR$/test/controllers/quotes_controller_test.rb" />
+        <option value="$PROJECT_DIR$/test/system/quoes_controller.test.rb" />
+        <option value="$PROJECT_DIR$/test/system/quotes_controller_test.rb" />
       </list>
     </option>
   </component>
@@ -263,22 +316,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="crawler.rails" type="52f3b0f7:RailsProjectNode" />
-              <item name="crawler.rails" type="ca5d24b0:RailsModuleNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="52f3b0f7:RailsProjectNode" />
-              <item name="crawler.rails" type="ca5d24b0:RailsModuleNode" />
-              <item name="Layouts" type="8e5d065:LayoutsFolder" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,6 +366,12 @@
               <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
               <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -365,27 +409,13 @@
             <path>
               <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
               <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
               <item name="crawler.rails" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crawler.rails" type="b2602c69:ProjectViewProjectNode" />
@@ -397,7 +427,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="RailsProjectView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="crawler.rails" type="52f3b0f7:RailsProjectNode" />
+              <item name="crawler.rails" type="ca5d24b0:RailsModuleNode" />
+            </path>
+            <path>
+              <item name="crawler.rails" type="52f3b0f7:RailsProjectNode" />
+              <item name="crawler.rails" type="ca5d24b0:RailsModuleNode" />
+              <item name="Layouts" type="8e5d065:LayoutsFolder" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,7 +470,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: crawler.rails">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'quotes_controller_test': crawler.rails">
     <configuration name="Development: crawler.rails" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="crawler.rails" />
@@ -505,7 +550,21 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Run test 'MainControllerTest': crawler.rails" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+    <configuration name="quotes_controller_test" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="crawler.rails" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/test/system" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/test/system/quotes_controller_test.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run test 'main_controller_test': crawler.rails" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="crawler.rails" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
@@ -531,7 +590,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_should_inputs_filled_automatically_after_load: crawler.rails" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+    <configuration name="Run test 'quotes_controller_test': crawler.rails" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="crawler.rails" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
@@ -547,9 +606,35 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/system/main_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/system/quotes_controller_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_inputs_filled_automatically_after_load" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_should_load_invalid_quote_tag_search_inside_pretty_print_editor: crawler.rails" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="crawler.rails" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/system/quotes_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_load_invalid_quote_tag_search_inside_pretty_print_editor" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -557,7 +642,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_should_password_visible_after_pass-eye_click: crawler.rails" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+    <configuration name="test_should_load_pretty_print_editor: crawler.rails" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="crawler.rails" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
@@ -573,61 +658,9 @@
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/system/main_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/system/quotes_controller_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_password_visible_after_pass-eye_click" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_should_show_popup_with_registered_token: crawler.rails" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="crawler.rails" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/system/main_controller_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_show_popup_with_registered_token" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_should_the_links_are_the_same: crawler.rails" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="crawler.rails" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/system/main_controller_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_the_links_are_the_same" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_load_pretty_print_editor" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -640,19 +673,19 @@
       <item itemvalue="Rake.spec: crawler.rails" />
       <item itemvalue="Rails.Production: crawler.rails" />
       <item itemvalue="Rails.Development: crawler.rails" />
-      <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'MainControllerTest': crawler.rails" />
-      <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_inputs_filled_automatically_after_load: crawler.rails" />
-      <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_password_visible_after_pass-eye_click: crawler.rails" />
-      <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_show_popup_with_registered_token: crawler.rails" />
-      <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_the_links_are_the_same: crawler.rails" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'main_controller_test': crawler.rails" />
+      <item itemvalue="Ruby.quotes_controller_test" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'quotes_controller_test': crawler.rails" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_load_pretty_print_editor: crawler.rails" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_load_invalid_quote_tag_search_inside_pretty_print_editor: crawler.rails" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_the_links_are_the_same: crawler.rails" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'MainControllerTest': crawler.rails" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_show_popup_with_registered_token: crawler.rails" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_password_visible_after_pass-eye_click: crawler.rails" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_inputs_filled_automatically_after_load: crawler.rails" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'quotes_controller_test': crawler.rails" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_load_invalid_quote_tag_search_inside_pretty_print_editor: crawler.rails" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_should_load_pretty_print_editor: crawler.rails" />
+        <item itemvalue="Ruby.quotes_controller_test" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.Run test 'main_controller_test': crawler.rails" />
       </list>
     </recent_temporary>
   </component>
@@ -682,6 +715,9 @@
       <workItem from="1544291404336" duration="795000" />
       <workItem from="1544293983090" duration="1674000" />
       <workItem from="1544297929441" duration="9970000" />
+      <workItem from="1544360265416" duration="6155000" />
+      <workItem from="1544376833137" duration="2445000" />
+      <workItem from="1544379600527" duration="5107000" />
     </task>
     <task id="LOCAL-00001" summary="Conclusion of tests for main and quote controller, now sending to travis ci">
       <created>1544222092394</created>
@@ -694,39 +730,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_should_show_popup_with_registered_token__crawler_rails - 2018.12.08 at 15h 59m 23s.xml">
-      <configuration name="test_should_show_popup_with_registered_token: crawler.rails" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_load_pretty_print_editor__crawler_rails - 2018.12.09 at 17h 45m 09s.xml">
+      <configuration name="test_should_load_pretty_print_editor: crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_should_show_popup_with_registered_token__crawler_rails - 2018.12.08 at 16h 34m 18s.xml">
-      <configuration name="test_should_show_popup_with_registered_token: crawler.rails" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_load_pretty_print_editor__crawler_rails - 2018.12.09 at 17h 49m 22s.xml">
+      <configuration name="test_should_load_pretty_print_editor: crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_should_show_popup_with_registered_token__crawler_rails - 2018.12.08 at 16h 41m 37s.xml">
-      <configuration name="test_should_show_popup_with_registered_token: crawler.rails" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_load_pretty_print_editor__crawler_rails - 2018.12.09 at 17h 51m 15s.xml">
+      <configuration name="test_should_load_pretty_print_editor: crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'MainControllerTest'__crawler_rails - 2018.12.08 at 17h 48m 47s.xml">
-      <configuration name="Run test 'MainControllerTest': crawler.rails" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_load_pretty_print_editor__crawler_rails - 2018.12.09 at 17h 52m 27s.xml">
+      <configuration name="test_should_load_pretty_print_editor: crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_test_'MainControllerTest'__crawler_rails - 2018.12.08 at 17h 51m 20s.xml">
-      <configuration name="Run test 'MainControllerTest': crawler.rails" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_load_pretty_print_editor__crawler_rails - 2018.12.09 at 17h 54m 59s.xml">
+      <configuration name="test_should_load_pretty_print_editor: crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_should_the_links_are_the_same__crawler_rails - 2018.12.08 at 17h 58m 35s.xml">
-      <configuration name="test_should_the_links_are_the_same: crawler.rails" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_load_pretty_print_editor__crawler_rails - 2018.12.09 at 17h 57m 25s.xml">
+      <configuration name="test_should_load_pretty_print_editor: crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_should_the_links_are_the_same__crawler_rails - 2018.12.08 at 17h 59m 32s.xml">
-      <configuration name="test_should_the_links_are_the_same: crawler.rails" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'quotes_controller_test'__crawler_rails - 2018.12.09 at 17h 58m 22s.xml">
+      <configuration name="Run test 'quotes_controller_test': crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_should_the_links_are_the_same__crawler_rails - 2018.12.08 at 18h 05m 47s.xml">
-      <configuration name="test_should_the_links_are_the_same: crawler.rails" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'quotes_controller_test'__crawler_rails - 2018.12.09 at 18h 01m 48s.xml">
+      <configuration name="Run test 'quotes_controller_test': crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_should_the_links_are_the_same__crawler_rails - 2018.12.08 at 18h 06m 30s.xml">
-      <configuration name="test_should_the_links_are_the_same: crawler.rails" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="test_should_load_invalid_quote_tag_search_inside_pretty_print_editor__crawler_rails - 2018.12.09 at 18h 05m 39s.xml">
+      <configuration name="test_should_load_invalid_quote_tag_search_inside_pretty_print_editor: crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_should_the_links_are_the_same__crawler_rails - 2018.12.08 at 18h 07m 47s.xml">
-      <configuration name="test_should_the_links_are_the_same: crawler.rails" configurationId="TestUnitRunConfigurationType" />
+    <history-entry file="Run_test_'quotes_controller_test'__crawler_rails - 2018.12.09 at 18h 06m 17s.xml">
+      <configuration name="Run test 'quotes_controller_test': crawler.rails" configurationId="TestUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61682000" />
+    <option name="totallyTimeSpent" value="75389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -741,19 +777,19 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.19194631" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788135" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" sideWeight="0.50211865" side_tool="true" weight="0.27919462" />
       <window_info id="Favorites" order="2" sideWeight="0.50211865" side_tool="true" weight="0.27919462" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49530202" visible="true" weight="0.31960228" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.28125" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49530202" visible="true" weight="0.31960228" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.37926137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32954547" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49798658" weight="0.28835228" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.504698" side_tool="true" weight="0.45454547" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49731544" visible="true" weight="0.32954547" />
@@ -767,6 +803,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -778,6 +824,15 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/test/system/quotes_controller_test.rb</url>
+          <line>51</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="RakeRunConfigurationType">
         <watch expression="(token_present? || token_on_path?) &amp;&amp; valid_token?" />
@@ -795,15 +850,33 @@
         <watch expression="exp.to_i" />
       </configuration>
       <configuration name="TestUnitRunConfigurationType">
-        <watch expression="page.config" language="ruby" />
-        <watch expression="page.config.app_host" language="ruby" />
-        <watch expression="page" language="ruby" />
-        <watch expression="page.server.port" language="ruby" />
+        <watch expression="&quot;/quotes/love/v?t=#{get_valid_token}&quot;" />
+        <watch expression="find('table.jsoneditor-tree div[contenteditable=&quot;true&quot;]').text" language="ruby" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>find('table.jsoneditor-tree div[contenteditable=&quot;true&quot;]').text</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>@user._id.to_s</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>page.find</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>find('.jsoneditor-tree')</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>page.server.port</expression-string>
         <language-id>ruby</language-id>
@@ -834,102 +907,22 @@
         <language-id>ruby</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>request.env['HTTP_AUTHORIZATION']</expression-string>
-        <language-id>ruby</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>!params[:t].blank?</expression-string>
-        <language-id>ruby</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>params[:t].blank</expression-string>
-        <language-id>ruby</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>params[:t].blank?</expression-string>
-        <language-id>ruby</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionpack-5.2.2/lib/action_dispatch/http/response.rb" />
-    <entry file="file://$PROJECT_DIR$/config/initializers/load_config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/concerns/exception_handler.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/rails">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/bundle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/ci.rake" />
-    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionpack-5.2.2/lib/action_controller/metal/rescue.rb" />
-    <entry file="file://$PROJECT_DIR$/coverage/.last_run.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/jwtoken.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionpack-5.2.2/lib/action_controller/metal.rb" />
     <entry file="file://$PROJECT_DIR$/test/controllers/test_base_controller.rb" />
     <entry file="file://$PROJECT_DIR$/test/config/quote_schema.json" />
     <entry file="file://$PROJECT_DIR$/test/config/conf.yml" />
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/system/mains_test.rb" />
-    <entry file="file://$PROJECT_DIR$/tmp/screenshots/failures_test_should_tooltips_visible_after_mouse_hover_elements.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/minitest-5.11.3/lib/minitest/test.rb" />
+    <entry file="file://$PROJECT_DIR$/tmp/screenshots/failures_test_should_tooltips_visible_after_mouse_hover_elements.png" />
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs25/kernel.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="4066" column="8" selection-start-line="4066" selection-start-column="8" selection-end-line="4066" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -944,13 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/crawler.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -982,26 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/config/config_test_loader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/main_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#213#262#0" />
-            <element signature="e#295#1034#0" />
-            <element signature="e#1078#1661#0" />
-            <element signature="e#1701#2063#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1009,44 +975,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/json_viewer_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/application_system_test_case.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/quotes_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/system/main_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="143" column="75" selection-start-line="143" selection-start-column="75" selection-end-line="143" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="143" column="41" selection-start-line="143" selection-start-column="41" selection-end-line="143" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/json_viewer_controller.rb" />
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1054,27 +983,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/jsoneditor-5.26.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/jsoneditor-5.26.3.min.js" />
     <entry file="file://$PROJECT_DIR$/lib/assets/javascripts/bootstrap-4.1.3.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1102,10 +1015,73 @@
     <entry file="file://$PROJECT_DIR$/lib/assets/stylesheets/bootstrap-4.1.3.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/quotes.coffee.erb" />
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/quotes/viewer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="143" column="41" selection-start-line="143" selection-start-column="41" selection-end-line="143" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/modal.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/main_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="91" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/quotes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1116,24 +1092,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/quotes/viewer.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/modules/crawler.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="391">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/quotes_controller.rb">
+    <entry file="file://$PROJECT_DIR$/test/application_system_test_case.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/quotes.coffee.erb">
+    <entry file="file://$PROJECT_DIR$/test/config/config_test_loader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activesupport-5.2.2/lib/active_support/testing/setup_and_teardown.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/quotes_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+          <folding>
+            <element signature="e#490#690#0" />
+            <element signature="e#740#944#0" />
+            <element signature="e#997#1237#0" />
+            <element signature="e#1290#1544#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/mongoid-6.4.2/lib/mongoid/attributes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="101" column="15" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activesupport-5.2.2/lib/active_support/core_ext/numeric/time.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activesupport-5.2.2/lib/active_support/core_ext/time/calculations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activesupport-5.2.2/lib/active_support/duration.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="358" selection-start-line="358" selection-end-line="358" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/minitest-5.11.3/lib/minitest/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-3.12.0/lib/capybara/dsl.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/jwtoken.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/system/main_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/system/quotes_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>

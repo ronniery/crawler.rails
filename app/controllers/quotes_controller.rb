@@ -11,12 +11,12 @@ class QuotesController < ApplicationController
   # GET /quotes/:tag/:mode
   def viewer
     @quotes
-    @catar = 'catar games'
+    @tag = params[:tag]
   end
 
   private
 
-  # Use callbacks to share common setup or constraints between actions.
+  # Set the quotes to this controller
   def set_quotes
     redirect_to '/422' if params[:tag].blank?
 

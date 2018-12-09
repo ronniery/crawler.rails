@@ -1,4 +1,48 @@
-<%= javascript_include_tag "http://www.example.com/xmlhr.js" %>
+<% content_for :body_js do %>
+  <%= javascript_include_tag "https://cdn.jsdelivr.net/npm/jsoneditor@5.26.3/dist/jsoneditor.min.js" %>
+
+  <script>
+    /**
+     * Quote viewer that will pretty print the json for a given tag
+     */
+    class QuotesViewer {
+
+      /**
+       * Constructs a new instance of this json pretty print viewer
+       */
+      constructor() {
+        this.initEditor();
+      }
+
+      /**
+       * Initialize the json editor with the default options
+       */
+      initEditor() {
+        const container = document.querySelector('#editor');
+        this.editor = new window['JSONEditor'](container);
+        this.editor.set(
+          this.getJson()
+        );
+      }
+
+      /**
+       * Handles the server response, preventing empty objects or exceptions with null/undefined responses
+       * if that happens returns the default message when a tag returns an empty response
+       * @returns {string[] | object} Will return an array with default response or an object with the quotes for a tag
+       */
+      getJson() {
+        const empty = ['No results for the given /<%= @tag %>/ tag.'];
+        const quotes = JSON.parse(`<%= @quotes.to_json.html_safe %>` || '{}');
+
+        return $.isEmptyObject(quotes) ? empty : quotes;
+      }
+    }
+
+    $(() => new QuotesViewer);
+  </script>
+
+<% end %>
+
 <section class="quotes-viewer h-100">
   <div class="container h-100">
     <div class="row pt-5 h-100">

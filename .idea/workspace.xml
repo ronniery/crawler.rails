@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88deb939-5766-44d6-ae3d-64f8befcc2db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
-    </list>
+    <list default="true" id="88deb939-5766-44d6-ae3d-64f8befcc2db" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -590,7 +586,7 @@
       <workItem from="1544297929441" duration="9970000" />
       <workItem from="1544360265416" duration="6155000" />
       <workItem from="1544376833137" duration="2445000" />
-      <workItem from="1544379600527" duration="13914000" />
+      <workItem from="1544379600527" duration="14384000" />
     </task>
     <task id="LOCAL-00001" summary="Conclusion of tests for main and quote controller, now sending to travis ci">
       <created>1544222092394</created>
@@ -642,7 +638,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84196000" />
+    <option name="totallyTimeSpent" value="84666000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

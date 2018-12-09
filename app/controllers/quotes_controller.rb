@@ -1,5 +1,10 @@
 # frozen_string_literal: true
 
+# QuotesController
+#
+# Core application that will serve routes to user search a term and returns the response as JSON
+# or with other route pretty print the response inside html component viewer
+#
 class QuotesController < ApplicationController
   before_action :set_quotes
 

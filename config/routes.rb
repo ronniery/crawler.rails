@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   match '/create' => 'main#create', :via => :post
   match 'quotes' => 'quotes#show', :via => :get
   match 'quotes/:tag' => 'quotes#show', :via => :get
+  match 'quotes/:tag/:mode' => 'quotes#viewer', :via => :get
 end

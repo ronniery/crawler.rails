@@ -134,6 +134,16 @@ class MainControllerTest < ApplicationSystemTestCase
     assert_hidden_element '#modal-token'
   end
 
+  test 'should the links are the same' do
+    expand_endpoints
+    find('#quote-token').set 'dummy-token'
+    find('#quote-term').set 'love'
+
+    base_path = "#{page.config.app_host}:#{page.server.port}"
+    assert_equal find('#quote-route')[:href], "#{base_path}/quotes/love?t=dummy-token"
+    assert_equal find('#quote-route-v')[:href], "#{base_path}/quotes/love/v?t=dummy-token"
+  end
+
   private
 
   # Assert when the given element is hidden on the test

@@ -140,8 +140,8 @@ class Main
       paste: (e) -> handler e, searchTerm
     
     tokenInput.on
-      keyup: (e) -> handler e, token
-      paste: (e) -> handler e, token
+      keyup: (e) -> handler e, tokenInput
+      paste: (e) -> handler e, tokenInput
   
   # Handles the click over the expansor, showing or hidding the api endpoints
   onShowApis: ->

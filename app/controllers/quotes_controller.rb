@@ -3,9 +3,15 @@
 class QuotesController < ApplicationController
   before_action :set_quotes
 
-  # GET /quotes/*tag
+  # GET /quotes/:tag
   def show
     render json: @quotes
+  end
+
+  # GET /quotes/:tag/:mode
+  def viewer
+    @quotes
+    @catar = 'catar games'
   end
 
   private

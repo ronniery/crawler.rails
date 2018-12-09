@@ -1,0 +1,26 @@
+# Place all the behaviors and hooks related to the matching controller here.
+# All this logic will automatically be available in application.js.
+# You can use CoffeeScript in this file: http://coffeescript.org/
+class Quotes
+
+  constructor: ->
+    @initeditor()
+    debugger
+    console.log('<%= @catar %>')
+
+  events: ->
+    @onSearchTerm()
+
+
+  initeditor: ->
+    container = document.querySelector '#editor'
+    editor = new JSONEditor container
+    editor.set "empty": "search a term above, the result will be shown here"
+
+  onSearchTerm: ->
+    $(".btn-search").on
+      click: ->
+
+
+$ ->
+  new Quotes

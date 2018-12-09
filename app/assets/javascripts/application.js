@@ -13,6 +13,7 @@
 //= require jquery-3.1.1.min
 //= require popper-1.4.3.min
 //= require bootstrap-4.1.3.min
+//= require jsoneditor-5.26.3.min
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .

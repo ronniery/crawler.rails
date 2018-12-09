@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require bootstrap-4.1.3.min
+ *= require jsoneditor-5.26.3.min.css.erb
  *= require_tree .
  *= require_self
  */

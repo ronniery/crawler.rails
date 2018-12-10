@@ -1,7 +1,7 @@
-# Ruby version 
+# Versão do ruby
   [![Ruby](https://img.shields.io/badge/ruby-2.5.3p105-yellowgreen.svg)](https://rubyinstaller.org/downloads/)  
 
-# Status
+# Condições do projeto
   [![Build Status](https://travis-ci.org/ronniery/crawler.rails.svg?branch=master)](https://travis-ci.org/ronniery/crawler.rails) 
   [![Maintainability](https://api.codeclimate.com/v1/badges/b52e77b44859c59e640c/maintainability)](https://codeclimate.com/github/ronniery/crawler.rails/maintainability)
   

@@ -6,12 +6,12 @@
   [![Maintainability](https://api.codeclimate.com/v1/badges/b52e77b44859c59e640c/maintainability)](https://codeclimate.com/github/ronniery/crawler.rails/maintainability)
   
 # Preciso iniciar o banco de dados?
-  Não existe a necessidade de inicializar a base de dados pois utilizo como host de banco de dados o site [mLab](https://mlab.com/), neste site é possível
+  Não existe a necessidade de inicializar a base de dados, a aplicação utiliza como host de banco de dados o site [mLab](https://mlab.com/), neste site é possível
   hospedar instâncias de banco de dados mongo, portanto foram criadas 3 instâncias, *quotes*, *quotes_test* e *quotes_prod*. 
 
 # Como executar os testes?
-  Não é preciso executar os testes localmente, para desenvolver esta aplicação utilizie o servidor de integração contínua
-  [Travis.CI](https://travis-ci.org), este server disponibiliza um relatório de construção do projeto que pode ser acessado aqui [Last Build](https://travis-ci.org/ronniery/crawler.rails)
+  Não é preciso executar os testes localmente, para desenvolver esta aplicação utilizei o servidor de integração contínua
+  [Travis.CI](https://travis-ci.org), este servidor disponibiliza um relatório de construção do projeto que pode ser acessado através do seguinte link [Last Build](https://travis-ci.org/ronniery/crawler.rails).
   
   Mas sendo necessário executar os testes localmente execute os seguintes passos: <br>
   
@@ -23,7 +23,9 @@
 
 # Como executar a aplicação?
   Também não se faz necessário executar a aplicação localmente devido a forma que o projeto foi costruído, juntamente com o [Travis.CI](https://travis-ci.org)
-  foram utilizados o servidor [Heroku](https://www.heroku.com/), o resultado da integração pode ser acessado atráves do seguinte <b>*[link](https://arcane-waters-62201.herokuapp.com/)*</b>.
+  foi utilizado o servidor [Heroku](https://www.heroku.com/) para hospedar a aplicação após o build, o resultado da integração pode ser acessado atráves do seguinte <b>*[link](https://arcane-waters-62201.herokuapp.com/)*</b>.
+  
+  Mas sendo necessário subir a aplicação localmente execute os seguintes passos:
   
   1. `git clone https://github.com/ronniery/crawler.rails.git`
   2. `cd crawler.rails`
@@ -31,8 +33,7 @@
   4. `rails server -e [production | development]` (Escolha um modo de execução do projeto)
 
 # Qual a solução adotada na aplicação?
-  Optei por criar um servidor em ruby on rails, com isso já teria um *'scaffold'* de aplicação que iria me dar agilidade, porém fiz ma péssima escolha
-  de utilizar windows 10 como OS de desenvolvimento ruby, o tempo que ganhei se perdeu aqui.
+  Optei por criar um servidor em ruby on rails, com isso já teria um *'scaffold'* de aplicação que iria me dar agilidade. 
   
   A aplicação possui as seguintes rotas:
   
@@ -61,7 +62,7 @@
     $.ajax({
       method: 'GET'
       headers: {
-        'Authorization: Beaer {USER_TOKEN}
+        'Authorization: Beaer {USER_TOKEN} //Não esquecer de adicionar `Bearer`
       },
       {...more options}
     })
@@ -78,12 +79,16 @@
   
   ![token_creation.png](https://github.com/ronniery/crawler.rails/blob/master/artifacts/quote_search.png)
   
-  A solução adotada para o desafio foi simples, o controlador base `application_controller` realiza a verificação da requisição
-  verificando se a requisição possui o token de acesso, seja no cabeçalho ou na url, se possuir o token e ele sendo válido 
-  a requisição irá ser continuada pelo controlador `quotes_controller#quotes/:tag`, ao dar continuidade a uma requisição nesta url o controlador
-  quote irá verificar se já existe um cache salvo no banco de dados para a tag informada, se não existir uma requisição será feita 
-  a url `http://quotes.toscrape.com/tag/{SEARCH_TERM/:tag}/`, logo após receber a resposta do servidor o módulo crawler irá realizando
-  o parse do html recebido, salvando cada nova quote dentro do db, conluindo a operação de parse de todo o HTML, será retornada uma lista
-  com todas as quotes obtidas, retornando para o controlador `quotes_controller` que por fim retorna ao usuário o JSON com todas 
-  as quotes encontradas e se existir o controlador irá retornar a lista com todas as quotes obitdas diretamente do bd.
+  Descrição do fluxo previamente mapeado:
+  
+  * O controlador base `application_controller` realiza a verificação da requisição recebida por todo controlador que herda diretamente do controlador já citado e que não especifica a flag `skip_before_action :check_auth`,
+  como já acontece no controlador `main_controller` verificando se a requisição possui o token de acesso, cabeçalho ou na url.
+    - Se possuir o token e ele sendo válido a requisição irá ser continuada pelo controlador `quotes_controller#quotes/:tag`.
+    - Ao dar continuidade a uma requisição nesta url o controlador `quote` será verificado se existe um cache salvo no banco de dados para a tag informada.
+      - Se não existir uma requisição será feita a url `http://quotes.toscrape.com/tag/{SEARCH_TERM/:tag}/`.
+      - Logo após receber a resposta do servidor o módulo `crawler` irá realizando o parse do html recebido, salvando cada nova quote dentro do db.
+    - Se existir o controlador irá retornar a lista com todas as quotes obtidas diretamente do bd. (Indo para a última etapa do processo)
+  * Conluindo a operação de parse de todo o HTML, será retornada uma lista com todas as quotes obtidas, retornando para o controlador `quotes_controller`.
+  * Para finalizar o controlador `quote` retornará ao usuário o JSON com todas as quotes encontradas.
+
   

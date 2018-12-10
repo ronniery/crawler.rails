@@ -1,0 +1,22 @@
+version: "2"
+prepare:
+  fetch:
+  - url: "https://raw.githubusercontent.com/thoughtbot/guides/master/style/ruby/.rubocop.yml"
+    path: ".rubocop.yml"
+ratings:
+  paths:
+    - '**.rb'
+plugins:
+  rubocop:
+    enabled: true
+    channel: "rubocop-0-39"
+exclude_paths:
+  - bin/
+  - config/
+  - coverage/
+  - lib/
+  - log/
+  - public/
+  - tmp/
+  - vendor/
+

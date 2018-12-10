@@ -8,7 +8,7 @@
 # Preciso iniciar o banco de dados?
   Não existe a necessidade de inicializar a base de dados, a aplicação utiliza como host de banco de dados o site [mLab](https://mlab.com/), neste site é possível
   hospedar instâncias de banco de dados mongo, portanto foram criadas 3 instâncias, *quotes*, *quotes_test* e *quotes_prod*. <br>
-  Se precisar acessar o banco de dados para validação os dados de conexão podem ser encontrados [aqui](https://github.com/ronniery/crawler.rails/blob/master/config/mongoid.yml)
+  Se precisar acessar o banco de dados para algum tipo de validação, os dados de conexão podem ser encontrados [aqui](https://github.com/ronniery/crawler.rails/blob/master/config/mongoid.yml).
 
 # Como executar os testes?
   Não é preciso executar os testes localmente, para desenvolver esta aplicação utilizei o servidor de integração contínua

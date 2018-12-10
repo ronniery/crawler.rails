@@ -66,11 +66,24 @@
       {...more options}
     })
   ```
-
+  
+   O token é válido por 2 horas.
+  
   obs: A arquitetura da aplicação foi feita desta forma, unicamente para fins avaliativos, considerando que não existem rotas que não sejam `GET`
   onde o header com a autorização faria mais sentido.
   
   # Busca por termos
   
+  Representação em BPM do fluxo necessário para realizar uma busca por um determinado termo:
   
+  ![token_creation.png](https://github.com/ronniery/crawler.rails/blob/master/artifacts/quote_search.png)
+  
+  A solução adotada para o desafio foi simples, o controlador base `application_controller` realiza a verificação da requisição
+  verificando se a requisição possui o token de acesso, seja no cabeçalho ou na url, se possuir o token e ele sendo válido 
+  a requisição irá ser continuada pelo controlador `quotes_controller#quotes/:tag`, ao dar continuidade a uma requisição nesta url o controlador
+  quote irá verificar se já existe um cache salvo no banco de dados para a tag informada, se não existir uma requisição será feita 
+  a url `http://quotes.toscrape.com/tag/{SEARCH_TERM/:tag}/`, logo após receber a resposta do servidor o módulo crawler irá realizando
+  o parse do html recebido, salvando cada nova quote dentro do db, conluindo a operação de parse de todo o HTML, será retornada uma lista
+  com todas as quotes obtidas, retornando para o controlador `quotes_controller` que por fim retorna ao usuário o JSON com todas 
+  as quotes encontradas e se existir o controlador irá retornar a lista com todas as quotes obitdas diretamente do bd.
   

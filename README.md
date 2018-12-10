@@ -2,7 +2,7 @@
   [![Ruby](https://img.shields.io/badge/ruby-2.5.3p105-yellowgreen.svg)](https://rubyinstaller.org/downloads/)  
 
 # Status
-  [![Build Status](https://travis-ci.org/ronniery/crawler.rails.svg?branch=master)](https://travis-ci.org/ronniery/crawler.rails) <br>
+  [![Build Status](https://travis-ci.org/ronniery/crawler.rails.svg?branch=master)](https://travis-ci.org/ronniery/crawler.rails) 
   [![Maintainability](https://api.codeclimate.com/v1/badges/b52e77b44859c59e640c/maintainability)](https://codeclimate.com/github/ronniery/crawler.rails/maintainability)
   
 # Preciso iniciar o banco de dados?
@@ -37,7 +37,7 @@
   A aplicação possui as seguintes rotas:
   
   | Prefixo | Método | URI  | Controlador/Ação | Descrição | Seguro
-  | :---: | --- | --- | --- | --- | --- |
+  | :---: | :---: | --- | :---: | --- | :---: |
   | `root` | **GET** | [/](https://arcane-waters-62201.herokuapp.com/) | main#index | Rota base do app | ✗ |
   | `create` | **POST** | [/create](https://arcane-waters-62201.herokuapp.com/create) | main#create | Rota para criação de tokens de acesso | ✗ |
   | `quotes` | **GET** | [/quotes](https://arcane-waters-62201.herokuapp.com/quotes) | quotes#show | Rota base do controllador *quotes* | ✓ |
@@ -45,6 +45,10 @@
   | - | **GET** | /quotes/:tag/:mode | quotes#viewer | Exibe o JSON em um editor amigável da tag informada | ✓ |
   
   # Autenticação
+  
+  Representação em BPM do fluxo necessário para se obter um token:
+  
+  ![token_creation.png](https://github.com/ronniery/crawler.rails/blob/master/artifacts/token_creation.png)
   
   Algumas rotas vão exigir que você informe um token de acesso através do parâmetro `?t={USER_TOKEN}` ou através do header `Authorization`, 
   vejamos um exemplo:
@@ -65,3 +69,8 @@
 
   obs: A arquitetura da aplicação foi feita desta forma, unicamente para fins avaliativos, considerando que não existem rotas que não sejam `GET`
   onde o header com a autorização faria mais sentido.
+  
+  # Busca por termos
+  
+  
+  
